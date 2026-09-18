@@ -1,3 +1,0 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-src/amulet/core/_version.py export-subst
