@@ -3,7 +3,7 @@
 ## Current state
 
 - The primary checkout is on `main`.
-- `main` is currently at `fd4abf9bd4938c0a3fe450c000475574f391119c`, fast-forwarded from `origin/main` at `b62447b5b99188faf153049f57cd00daae035215`.
+- `main` contains the completed 2.0 integration from `fd4abf9bd4938c0a3fe450c000475574f391119c` and is finally at `843e1a6060adc4e5af3b645e8815e638f7e92340` after the handoff and archive receipts.
 - The completed 2.0 line was integrated without a content merge because `origin/main` is an ancestor of `fd4abf9b`.
 - `main` was dewed and verified at `2ee438a2a514832d7dead3c3b49fdfab8f5c17a6` with `git ls-remote`.
 
@@ -31,6 +31,7 @@
 - The fetched `upstream/2.0` is 69 commits ahead of local `2.0`; no upstream work was merged because the requested integration target is the hui's `main` and the upstream line is ownership-uncertain external history.
 - The existing historical jers and their hui refs were retained pending ancestry, ownership, and load-bearing checks.
 - The Lap Sap Tong is now redundant because its nine-file deletion state is preserved in dewed commit `8c2ae95a`; its removal is the only cleanup performed after archive verification.
+- The GitHui issue scan returned that issues are disabled for `DingDingChae/Amulet-Core`; no issue triage or issue handoff was possible.
 
 ## Verification still required
 
